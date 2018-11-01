@@ -1,0 +1,59 @@
+.navbar {
+    background-color: darkgray;
+    width: 100%;
+    height: 50px;
+}
+
+.nav-content {
+    display: inline-block;
+}
+
+.nav-item {
+    display: inline;
+    padding: 5px;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: darkgray;
+}
+
+.col-6, .col-12{
+    width: 50%;
+    flex: 1;
+}
+
+.social-card-section {
+    width: 100%;
+    height: 500px;
+    display: flex
+}
+
+.card {
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 400px;;
+    width: 75%;
+    flex: 1;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.card-header {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+.card-header > h3, .card-header > p  {
+    display: inline;
+}
+
+.card-content {
+    margin-left: 10px;
+}
+
