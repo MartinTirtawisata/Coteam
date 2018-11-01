@@ -1,0 +1,46 @@
+.navbar {
+    background-color: darkgray;
+    width: 100%;
+    height: 50px;
+}
+
+.nav-content {
+    display: inline-block;
+}
+
+.nav-item {
+    display: inline;
+    padding: 5px;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: darkgray;
+}
+
+.register-section {
+    height: 500px;
+    width: 100%;
+}
+
+.register-form{
+    border: solid 1px black;
+    padding: 10px;
+    margin-top: 20px;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label, input {
+    width: 100%;
+    height: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.register-button {
+    width: 100%;
+    margin-top: 10px;
+}
