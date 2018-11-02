@@ -1,0 +1,49 @@
+.navbar {
+    background-color: darkgray;
+    width: 100%;
+    height: 50px;
+}
+
+.nav-content {
+    display: inline-block;
+}
+
+.nav-item {
+    display: inline;
+    padding: 5px;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: darkgray;
+}
+
+.col-6, .col-12{
+    width: 50%;
+    flex: 1;
+}
+
+.question-form-section {
+    width: 100%;
+    height: 400px;
+    margin: 10px 0px 50px 0px;
+}
+
+.question-form-content {
+    padding: 10px;
+    margin: 0px auto 0px auto;
+    max-width: 400px;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+form > input, form > label {
+    display: block;
+}
+
+button {
+    margin-left: auto;
+    margin-right: auto;
+}
